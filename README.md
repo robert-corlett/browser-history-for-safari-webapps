@@ -6,6 +6,8 @@ One notable limitation is that these web apps lack any way to view or navigate y
 
 # Browser History for Safari Web Apps
 
+![UI](ui.jpg)
+
 This userscript provides the missing browsing history functionality.
 
 It records your browsing activity to pages you navigate to within the web app. It collects the URL, page title, and the date & time, storing each entry using GM storage APIs (setValue/getValue). All data is stored locally within the Userscripts extension sandbox and is not shared with any other domain or extension.  To view your browsing history, use the keyboard shortcut (default CMD + SHIFT + H) at any time. A panel will open showing your browsing history, with options to search, navigate, or clear history.
